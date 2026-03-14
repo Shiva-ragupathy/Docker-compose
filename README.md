@@ -1,23 +1,38 @@
-# Custom Nginx Deployment using Docker Compose
+# 🚀 Custom Nginx Deployment using Docker Compose
 
-## Project Overview
-This project demonstrates how to deploy a custom Nginx container using Docker and Docker Compose on an AWS EC2 instance.
+![Docker](https://img.shields.io/badge/Docker-Container-blue)
+![Docker Compose](https://img.shields.io/badge/Docker--Compose-Orchestration-blue)
+![AWS](https://img.shields.io/badge/AWS-EC2-orange)
+![Nginx](https://img.shields.io/badge/Nginx-WebServer-green)
 
-## Technologies Used
+## 📌 Project Overview
+
+This project demonstrates how to deploy a **custom Nginx container** using Docker Compose on an AWS EC2 instance.  
+A bind mount is used to serve website content from the host machine into the container.
+
+---
+
+## 🛠 Technologies Used
+
 - AWS EC2
 - Docker
 - Docker Compose
 - Nginx
-## Project Structure
-Docker-compose
+- GitHub
+
+## 🏗 Architecture
+
+AWS EC2
 │
-├── Dockerfile
-├── docker-compose.yml
-├── nginx.conf
-├── websites
-│   └── index.html
-├── deployment.png
-└── README.md
+Docker Engine
+│
+Docker Compose
+│
+Custom Nginx Container
+│
+Bind Mount (/var/opt/nginx)
+│
+Static Website
 
 ## Project Features
 - Custom Nginx Docker image
@@ -33,3 +48,10 @@ docker compose up -d --build
 # Docker Compose Nginx Deployment
 
 ![Project Screenshot](deployment.png)
+
+| Markdown Element | Needed Symbol |
+|---|---|
+| Heading | `#` |
+| Bullet list | `-` |
+| Code block | ``` |
+| Folder structure | ``` |
