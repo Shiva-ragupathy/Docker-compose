@@ -8,6 +8,16 @@ This project demonstrates how to deploy a custom Nginx container using Docker an
 - Docker
 - Docker Compose
 - Nginx
+## Project Structure
+Docker-compose
+│
+├── Dockerfile
+├── docker-compose.yml
+├── nginx.conf
+├── websites
+│   └── index.html
+├── deployment.png
+└── README.md
 
 ## Project Features
 - Custom Nginx Docker image
@@ -19,3 +29,7 @@ This project demonstrates how to deploy a custom Nginx container using Docker an
 
 ```bash
 docker compose up -d --build
+
+# Docker Compose Nginx Deployment
+
+![Project Screenshot](deployment.png)
