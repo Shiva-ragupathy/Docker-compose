@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DevOps Project</title>
+<style>
+body{
+font-family:Arial;
+background:linear-gradient(135deg,#667eea,#764ba2);
+color:white;
+text-align:center;
+padding-top:120px;
+}
+
+.card{
+background:rgba(0,0,0,0.3);
+padding:40px;
+border-radius:10px;
+display:inline-block;
+}
+
+button{
+padding:10px 20px;
+border:none;
+border-radius:20px;
+background:white;
+color:black;
+cursor:pointer;
+margin-top:15px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>🚀 Nginx Custom Docker Image</h1>
+
+<p>Running on AWS EC2 using Docker Compose</p>
+
+<button onclick="msg()">Check Status</button>
+
+<p id="status"></p>
+
+</div>
+
+<script>
+function msg(){
+document.getElementById("status").innerHTML="Container is working perfectly!";
+}
+</script>
+
+</body>
+</html>
