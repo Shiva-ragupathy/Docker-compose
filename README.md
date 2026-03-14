@@ -49,9 +49,8 @@ docker compose up -d --build
 
 ![Project Screenshot](deployment.png)
 
-| Markdown Element | Needed Symbol |
-|---|---|
-| Heading | `#` |
-| Bullet list | `-` |
-| Code block | ``` |
-| Folder structure | ``` |
+## Screenshot
+
+<p align="center">
+  <img src="deployment.png" width="800">
+</p>
